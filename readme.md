@@ -11,6 +11,14 @@ Git resuelve exactamente eso. Pero Git no es solo un "backup con historial": es 
 
 Este laboratorio simula el flujo de trabajo que vas a encontrar en equipos profesionales: ramas de trabajo, pull requests, revisión de código y resolución de conflictos.
 
+
+**Nombre:** Sofia Micaela Giani
+**Compañero/a:** Fidel Garcia
+
+---
+
+## Antes de empezar
+
 ### Herramientas necesarias
 
 - **Git** instalado localmente
@@ -55,7 +63,6 @@ Vas a ver que `multiplicar` devuelve 0 — eso es lo esperado, es lo que vas a i
 
 > **Tip:** a lo largo del laboratorio podés correr `make test` en cualquier momento para ver cuántos checks pasás, sin necesidad de hacer push. Guardá el push para cuando hayas terminado una parte completa.
 
----
 
 ## Qué vas a aprender
 
@@ -571,11 +578,7 @@ Abrí `operaciones.c`. Vas a ver algo así:
 
 ```c
 int esPar(int n) {
-<<<<<<< HEAD
     return (n % 2) == 0; /* version main */
-=======
-    return (n & 1) == 0;
->>>>>>> origin/feature/conflicto-demo
 }
 ```
 
